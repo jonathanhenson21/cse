@@ -12,7 +12,7 @@ print( c * b - a )
 
 print( c** a / b )
 
-prints (13 % 12)
+print(13 % 12)
 
 #  the "%" sign is a modulus. if finds the reminder
 
