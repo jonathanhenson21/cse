@@ -93,10 +93,10 @@
 #     "F"
 #     print(gread_calc(59)
 
-'''write a fuction called "happy bday"
+''' write a fuction called "happy bday"
 that "sings" (prints) Happy Birthday
  
- It must take one parameter called "name
+ It must take one parameter called "name"
 '''
 
 
@@ -106,20 +106,19 @@ def happy_bday(name):
     print("happy birthday dear " + name)
     print("happy birthday to you ")
 
+
 happy_bday("jordan")
 
-    # Loop
+# Loop
 for num in range(10):
-        print (num + 1)
+        print(num + 1)
 
 
 a = 1
 while a < 10:
-    print (a)
+    print(a)
     a += 1
 
-
-
-#random numbers
-import random #this shou;d be on line 1
-print (random.randint(0,1000))
+#Random numbers
+ import random #this should be on line 1
+print(random.randint(0, 1000))
