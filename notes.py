@@ -119,6 +119,21 @@ while a < 10:
     print(a)
     a += 1
 
-#Random numbers
- import random #this should be on line 1
+import random  # this should be on line 1
 print(random.randint(0, 1000))
+
+
+
+
+# Recasting
+c = '1'
+print (c==1) # we have a string and int
+print (int(c) == 1)
+
+
+
+# Comparisons
+
+print ( 1 == 1) # use a double equal to 2
+print ( 1 ! False)# "!" is the "not" operator
+print (not False )
