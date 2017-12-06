@@ -90,21 +90,20 @@
 #      "F"
 #      print(gread_calc(59)
 
-'''
- write a fuction called "happy bday"
-that "sings" (prints) Happy Birthday
 
- It must take one parameter called ("name")  '''
+''' write a Fuction called "happy birthday"
+that "sings" (prints) Happy Birthday
+It must take one parameter called ("name")'''
 
 #
-# def happy_bday(name):
+# def happy_birthday(name):
 #     print("happy birthday to you")
 #     print("happy birthday to you")
 #     print("happy birthday dear " + name)
 #     print("happy birthday to you ")
 #
 #
-# happy_bday("jordan")
+# happy_birthday("jordan")
 #
 # # Loop
 # for num in range(10):
