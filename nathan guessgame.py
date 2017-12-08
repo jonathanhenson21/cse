@@ -8,19 +8,21 @@
 # add 5 guesses
 
 # A guess game program made in python
+
+
 import random
 
-guessesTaken = 10
+guessesTaken = 6
 
 print('Hello! What is your name, may i ask?')
 myName = input()
 
 number = random.randint(1, 50)
-print('Well, ' + myName + ', I am thinking of a number between 1 and 20')
+print('Well, ' + myName + ', I am thinking of a number between 1 and 50')
 
 while guessesTaken < 6:
     print('Take a guess..')
-    guess = input(50)
+    guess = input()
     guess = int(guess)
 
     guessesTaken = guessesTaken + 1

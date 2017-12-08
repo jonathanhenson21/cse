@@ -91,9 +91,9 @@
 #      print(gread_calc(59)
 
 
-''' write a Fuction called "happy birthday"
+""" write a Fuction called "happy birthday"
 that "sings" (prints) Happy Birthday
-It must take one parameter called ("name")'''
+It must take one parameter called ("name")"""
 
 #
 # def happy_birthday(name):
