@@ -125,9 +125,9 @@ It must take one parameter called ("name")"""
 # # we have a string and int
 # print(int(c) == 1)
 
-print(1 == 1)
-print(1 != 2)
-print(not False)
+# print(1 == 1)
+# print(1 != 2)
+# print(not False)
 
 the_count = [1, 2, 3, 4, 5, 6, ]
 cheeseburger_ingredients = ['cheese', " beef", "sauce", "sesame seed bun", "avocado", "onion", "bacon", ]
@@ -137,8 +137,8 @@ print(len(cheeseburger_ingredients))
 
 for generic_item_name in cheeseburger_ingredients:
     print(generic_item_name)
-# for item in the_count:
-#     print(item)
+# # for item in the_count:
+#      print(item)
 for item in the_count:
     print(item * 2)
 
@@ -147,4 +147,27 @@ range(5)
 range(len(cheeseburger_ingredients))
 for num in range(len(cheeseburger_ingredients)):
     item = cheeseburger_ingredients[num]
-    print("the item at index %d is" % (num, item))
+    print("the item at index %d is %s" % (num, item))
+strOne = "hello world!"
+listOne = list(strOne)
+print(listOne)
+listOne[-1] = '.'
+
+print(listOne)
+cheeseburger_ingredients.append("fries")
+
+# remove things from a list
+cheeseburger_ingredients.pop(1)
+print(cheeseburger_ingredients)
+cheeseburger_ingredients.remove("cheese")
+print(cheeseburger_ingredients)
+
+import string
+print(string)
+print(string.ascii_lowercase)
+print(string.punctuation)
+
+# making things lowercase
+strTwo = "This Is A VeRY Ods sEnTeNCE"
+lowercase = strTwo.lower()
+print(lowercase)
