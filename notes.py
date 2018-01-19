@@ -124,3 +124,27 @@ It must take one parameter called ("name")"""
 #
 # # we have a string and int
 # print(int(c) == 1)
+
+print(1 == 1)
+print(1 != 2)
+print(not False)
+
+the_count = [1, 2, 3, 4, 5, 6, ]
+cheeseburger_ingredients = ['cheese', " beef", "sauce", "sesame seed bun", "avocado", "onion", "bacon", ]
+print("cheeseburger_ingredients{0}")
+print("sesame seed bun is the best bread ever")
+print(len(cheeseburger_ingredients))
+
+for generic_item_name in cheeseburger_ingredients:
+    print(generic_item_name)
+# for item in the_count:
+#     print(item)
+for item in the_count:
+    print(item * 2)
+
+length = len(cheeseburger_ingredients)
+range(5)
+range(len(cheeseburger_ingredients))
+for num in range(len(cheeseburger_ingredients)):
+    item = cheeseburger_ingredients[num]
+    print("the item at index %d is" % (num, item))
