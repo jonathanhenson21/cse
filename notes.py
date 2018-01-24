@@ -16,7 +16,7 @@
 #
 #  #  the "%" sign is a modulus. if finds the reminder
 #
-#  car_name = "the wiebe moble"
+#  car_name = "the bat car"
 #  car_type = "bmw"
 #  car_cylinders = 8
 #  car_mpg = 5000.9
@@ -168,6 +168,6 @@ print(string.ascii_lowercase)
 print(string.punctuation)
 
 # making things lowercase
-strTwo = "This Is A VeRY Ods sEnTeNCE"
+strTwo = "This Is A VeRY Odds sEnTeNCE"
 lowercase = strTwo.lower()
 print(lowercase)
