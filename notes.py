@@ -129,45 +129,53 @@ It must take one parameter called ("name")"""
 # print(1 != 2)
 # print(not False)
 
-the_count = [1, 2, 3, 4, 5, 6, ]
-cheeseburger_ingredients = ['cheese', " beef", "sauce", "sesame seed bun", "avocado", "onion", "bacon", ]
-print("cheeseburger_ingredients{0}")
-print("sesame seed bun is the best bread ever")
-print(len(cheeseburger_ingredients))
+# the_count = [1, 2, 3, 4, 5, 6, ]
+# cheeseburger_ingredients = ['cheese', " beef", "sauce", "sesame seed bun", "avocado", "onion", "bacon", ]
+# print("cheeseburger_ingredients{0}")
+# print("sesame seed bun is the best bread ever")
+# print(len(cheeseburger_ingredients))
+#
+# for generic_item_name in cheeseburger_ingredients:
+#     print(generic_item_name)
+# # # for item in the_count:
+# #      print(item)
+# for item in the_count:
+#     print(item * 2)
+#
+# length = len(cheeseburger_ingredients)
+# range(5)
+# range(len(cheeseburger_ingredients))
+# for num in range(len(cheeseburger_ingredients)):
+#     item = cheeseburger_ingredients[num]
+#     print("the item at index %d is %s" % (num, item))
+# strOne = "hello world!"
+# listOne = list(strOne)
+# print(listOne)
+# listOne[-1] = '.'
+#
+# print(listOne)
+# cheeseburger_ingredients.append("fries")
+#
+# # remove things from a list
+# cheeseburger_ingredients.pop(1)
+# print(cheeseburger_ingredients)
+# cheeseburger_ingredients.remove("cheese")
+# print(cheeseburger_ingredients)
+#
+# import string
+# print(string)
+# print(string.ascii_lowercase)
+# print(string.punctuation)
+#
+# # making things lowercase
+# strTwo = "This Is A VeRY Odds sEnTeNCE"
+# lowercase = strTwo.lower()
+# print(lowercase)
 
-for generic_item_name in cheeseburger_ingredients:
-    print(generic_item_name)
-# # for item in the_count:
-#      print(item)
-for item in the_count:
-    print(item * 2)
+# dictionaries - made up of key: value pair
 
-length = len(cheeseburger_ingredients)
-range(5)
-range(len(cheeseburger_ingredients))
-for num in range(len(cheeseburger_ingredients)):
-    item = cheeseburger_ingredients[num]
-    print("the item at index %d is %s" % (num, item))
-strOne = "hello world!"
-listOne = list(strOne)
-print(listOne)
-listOne[-1] = '.'
-
-print(listOne)
-cheeseburger_ingredients.append("fries")
-
-# remove things from a list
-cheeseburger_ingredients.pop(1)
-print(cheeseburger_ingredients)
-cheeseburger_ingredients.remove("cheese")
-print(cheeseburger_ingredients)
-
-import string
-print(string)
-print(string.ascii_lowercase)
-print(string.punctuation)
-
-# making things lowercase
-strTwo = "This Is A VeRY Odds sEnTeNCE"
-lowercase = strTwo.lower()
-print(lowercase)
+dictionary = {"name": 'shell', 'age': 26, 'height': 6 * 12 + 2}
+ #accessin things form a dictionary
+print(dictionary['name'])
+print(dictionary['age'])
+print(dictionary['height'])
