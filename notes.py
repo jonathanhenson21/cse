@@ -175,7 +175,23 @@ It must take one parameter called ("name")"""
 # dictionaries - made up of key: value pair
 
 dictionary = {"name": 'shell', 'age': 26, 'height': 6 * 12 + 2}
- #accessin things form a dictionary
+ #Accessin things form a dictionary
 print(dictionary['name'])
 print(dictionary['age'])
 print(dictionary['height'])
+large_dictionary = {
+    'CA': ' california',
+    'Az': 'arizona',
+    'NY': ' New york'
+}
+print(large_dictionary['NY'])
+
+large_dictionary ={
+    'CA':[
+         'fresno',
+        "san francisco",
+        "san jose"
+          ]
+    'Az': '',
+    'NY': ' '
+}
