@@ -4,25 +4,45 @@ world_map = {
         'DESCRIPTION': 'your in a forest all you can see is trees.',
         'PATHS': {
             'SOUTH': 'SOUTHHOUSE',
-            'NORTH': 'NORTHHOUSE'
+            'NORTH': 'NORTHHOUSE',
+            'WEST': 'WESTHOUSE0',
+            'EAST': 'EASTHOUSE'
         }
-    },
+    }, 
     'SOUTHHOUSE': {
         'NAME': "South of House",
         'DESCRIPTION': "a blue house with 4 windows and 1 door",
         "PATHS": {
-            'WEST': 'WESTHOUSE'
+            'WEST': 'BLUEHOUSE'
+
+        }
+    },
+        'BLUEHOUSE': {
+            'NAME': "BLUE OF HOUSE",
+            'DESCRIPTION': "your in the living room and you have two paths",
+            "PATHS": {
+                'NORTH':'EASTOFLAKE'
+
+
         }
     },
     'EASTOFLAKE': {
         'NAME': "BY THE LAKE",
         'DESCRIPTION': "all you see is the lake and boats",
         "PATHS": {
-            'EAST': 'EASTOFLAKE'
+            'EAST': 'WESTOFHOME'
+        }
+    },
+
+'WESTOFHOME': {
+        'NAME': "IN THE WOODS",
+        'DESCRIPTION': "YOUR BY A YELLOW 2 STORY HOUSE",
+        "PATHS": {
+            'SOUTH': 'LIVINGROOM',
+            'EAST': 'NORTHOFCITYZ',
         }
     }
 }
-
 current_node = world_map['WESTHOUSE']
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST']
 while True:
