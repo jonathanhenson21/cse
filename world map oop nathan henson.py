@@ -14,9 +14,10 @@ class Room(object):
 
 
 west_house = Room('The Green House', "Insert description here", None, 'backroom', None, None, 'front_door')
-backroom = Room("Green Room", "ITS HAS A LOT OF PLANTS ", None, 'outside', 'west_house', 'side_door', 'outside_west')
+backroom = Room("Green Room", "ITS HAS A LOT OF PLANTS ", None, 'outside', 'road', 'side_door', 'outside_west')
+road = Room('road', "long dirt road",None,'South',None,None,'SOUTH_HOUSE', )
 SOUTH_HOUSE = Room('blue house', "look old have wood walls and a fireplace", None, 'backroom', None, None, 'front_door')
-upstair = Room("2 Floor", "it haves 3 room ", None, 'Hall''wide hall way', 'SOUTH_HOUSE, "next_room', 'down_stair', 'left_roomn')
+upstair = Room("2 Floor", "it haves 3 room ", None, 'Hall''wide hall way', 'SOUTH_HOUSE, "next_room', 'down_stair', 'left_room')
 # room1 = Room()
 # BLUE_HOUSE = Room('north', 'south', 'west', 'east')
 # room2 = Room()
