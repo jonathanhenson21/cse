@@ -19,8 +19,9 @@ road = Room('road', "long dirt road", None, 'South', None, None, 'SOUTH_HOUSE', 
 SOUTH_HOUSE = Room('blue house', "look old have wood walls and a fireplace", None, 'backroom', None, None, 'front_door')
 upstair = Room("2 Floor", "it haves 3 room ", None, 'Hall''wide hall way', 'SOUTH_HOUSE, "next_room', 'down_stair', 'left_room')
 room1 = Room('1 Room', 'One bed and green walls', None,'wall', 'wall', 'wall', 'hallway')
-BLUE_HOUSE = Room('2 Room', 'two beds two windows', None,'wall''east')
-# room2 = Room()
+BLUE_HOUSE = Room('2 Room', 'two beds two windows', None,'wall''wall with a window', 'wall', 'wall', 'door out the hall')
+
+down_stair = Room('')
 # EAST_OF_LAKE = Room('north', 'south', 'west', 'east')
 # room3 = Room()
 # WEST_OF_HOME = Room('north', 'south', 'west', 'east')
