@@ -29,7 +29,7 @@ down_stair = Room('')
 current_node = west_house
 directions = ['north', 'south', 'east', 'west']
 short_directions = ['n', 's', 'e', 'w']
-
+.
 while True:
     print(current_node.name)  # change
     print(current_node.description)   # Change

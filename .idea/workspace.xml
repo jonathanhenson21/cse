@@ -22,8 +22,8 @@
       <file leaf-file-name="world map oop nathan henson.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/world map oop nathan henson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="19" selection-end-column="128" />
+            <state relative-caret-position="391">
+              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -42,7 +42,7 @@
       <file leaf-file-name="Nathan Henson - CYOA.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nathan Henson - CYOA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="17">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
@@ -102,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,7 +114,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -677,7 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nathan Henson - CYOA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="17">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
@@ -685,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/world map oop nathan henson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="19" selection-end-column="128" />
+        <state relative-caret-position="391">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>
