@@ -1,5 +1,5 @@
 class Room(object):
-    def __init__(self, name, description, items, north, south, east, west):
+    def __init__(self, name, description, items, north, south, east, west, up, down):
         self.name = name
         self.north = north
         self.description = description
@@ -7,21 +7,21 @@ class Room(object):
         self.south = south
         self.east = east
         self.west = west
+        self.up = up
+        self.down = down
 
     def move(self, direction):
         global current_node
         current_node = globals()[getattr(self, direction)]
 
 
-west_house = Room('The Green House', "Insert description here", None, 'backroom', None, None, 'front_door')
-backroom = Room("Green Room", "ITS HAS A LOT OF PLANTS ", None, 'outside', 'road', 'side_door', 'outside_west')
-road = Room('road', "long dirt road", None, 'South', None, None, 'SOUTH_HOUSE', )
-SOUTH_HOUSE = Room('blue house', "look old have wood walls and a fireplace", None, 'backroom', None, None, 'front_door')
+west_house = Room('The Green House', "Insert description here", None, 'backroom', None, None, 'front_door', 'none', 'none')
+backroom = Room("Green Room", "ITS HAS A LOT OF PLANTS ", None, 'outside', 'road', 'side_door', 'outside_west', 'none', 'none')
+road = Room('road', "long dirt road", None, 'South', None, None, 'SOUTH_HOUSE', 'none', ' none')
+SOUTH_HOUSE = Room('blue house', "look old have wood walls and a fireplace", None, 'backroom', None, None, 'front_door', '2 Floor', 'none')
 upstair = Room("2 Floor", "it haves 3 room ", None, 'Hall''wide hall way', 'SOUTH_HOUSE, "next_room', 'down_stair', 'left_room')
 room1 = Room('1 Room', 'One bed and green walls', None,'wall', 'wall', 'wall', 'hallway')
 BLUE_HOUSE = Room('2 Room', 'two beds two windows', None,'wall''wall with a window', 'wall', 'wall', 'door out the hall')
-
-down_stair = Room('')
 # EAST_OF_LAKE = Room('north', 'south', 'west', 'east')
 # room3 = Room()
 # WEST_OF_HOME = Room('north', 'south', 'west', 'east')
@@ -29,7 +29,7 @@ down_stair = Room('')
 current_node = west_house
 directions = ['north', 'south', 'east', 'west']
 short_directions = ['n', 's', 'e', 'w']
-.
+
 while True:
     print(current_node.name)  # change
     print(current_node.description)   # Change
