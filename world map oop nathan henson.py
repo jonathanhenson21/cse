@@ -15,17 +15,18 @@ class Room(object):
         current_node = globals()[getattr(self, direction)]
 
 
-west_house = Room('The Green House', "Insert description here", None, 'backroom', None, None, 'front_door', 'none', 'none')
-backroom = Room("Green Room", "ITS HAS A LOT OF PLANTS ", None, 'outside', 'road', 'side_door', 'outside_west', 'none', 'none')
-road = Room('road', "long dirt road", None, 'South', None, None, 'SOUTH_HOUSE', 'none', ' none')
-SOUTH_HOUSE = Room('blue house', "look old have wood walls and a fireplace", None, 'backroom', None, None, 'front_door', '2 Floor', 'none')
-upstair = Room("2 Floor", "it haves 3 room ", None, 'Hall''wide hall way', 'SOUTH_HOUSE, "next_room', 'down_stair', 'left_room', 'none', 'none')
-room1 = Room('1 Room', 'One bed and green walls', None,'wall', 'wall', 'wall', 'hallway', 'none', 'none')
-BLUE_HOUSE = Room('2 Room', 'two beds two windows', None,'wall''wall with a window', 'wall', 'wall', 'door out the hall', 'none','none')
-EAST_OF_LAKE = Room('lake', '2 boat and a dock', None, 'dock ', 'lake', 'water', 'boat one', '')
-# room3 = Room()
-# WEST_OF_HOME = Room('north', 'south', 'west', 'east')
-
+west_house = Room('The Green House', "Insert description here", None, 'backroom', None, None, 'front_door', None, None)
+backroom = Room("Green Room", "ITS HAS A LOT OF PLANTS ", None, 'outside', 'road', 'side_door', 'outside_west', None, None)
+road = Room('road', "long dirt road", None, 'South', None, None, 'SOUTH_HOUSE', None,  None)
+SOUTH_HOUSE = Room('blue house', "look old have wood walls and a fireplace", None, 'backroom', None, None, 'front_door', '2 Floor', None)
+upstair = Room("2 Floor", "it haves 3 room ", None, 'Hall''wide hall way', 'SOUTH_HOUSE, "next_room', 'down_stair', 'left_room', None, None)
+room1 = Room('1 Room', 'One bed and green walls', None,'wall', 'wall', 'wall', 'hallway', None, None)
+BLUE_HOUSE = Room('2 Room', 'two beds two windows', None,'wall''wall with a window', 'wall', 'wall', 'door out the hall', None,None)
+EAST_OF_LAKE = Room('lake', '2 boat and a dock', None, 'dock ', 'lake', 'water', 'boat one', None, None)
+boat1 = Room('boat1', 'red', None, 'other side', 'other boat', 'lake', None, None, None)
+boat2 = Room('boat2', 'blue', None, 'west land', 'underwater', 'lake', 'dock',  None, None)
+land = Room('west land', 'has a lot of trees', None, 'Pruplehouse', 'yellow house', 'cave', 'a samll house', None, None )
+land2 = Room()
 current_node = west_house
 directions = ['north', 'south', 'east', 'west']
 short_directions = ['n', 's', 'e', 'w']
