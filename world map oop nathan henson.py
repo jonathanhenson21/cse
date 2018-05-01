@@ -15,7 +15,7 @@ class Room(object):
         current_node = globals()[getattr(self, direction)]
 
 
-west_house = Room('The Green House', " its green ", None, 'backroom', None, None, 'front_door', None, None)
+west_house = Room('The Green House', "It's called a green house for a reason😒", None, 'backroom', None, None, 'front_door', None, None)
 backroom = Room("Green Room", "ITS HAS A LOT OF PLANTS ", None, 'outside', 'road', 'side_door', 'outside_west', None, None)
 road = Room('road', "long dirt road", None, 'South', None, None, 'SOUTH_HOUSE', None,  None)
 SOUTH_HOUSE = Room('blue house', "look old have wood walls and a fireplace", None, 'backroom', None, None, 'front_door', '2 Floor', None)
@@ -33,13 +33,13 @@ cave = Room('cave', 'dark', None, 'back of cave', None, None, None, None, None)
 backofcave = Room('cave' 'dark', None, None, None, None, None, None, None, None)
 yelow = Room('Yellow house', 'yellow', None, 'room1', 'room2', 'room3', 'room4', None, None)
 small = Room('small house', 'very small', None,'room1','Room2','Room3','Room4', None,None)
-buncker = Room('buncker', 'very big', None, None, None, None, None, None ,None)
+buncker = Room('lil_nat', 'very big', None, None, None, None, None, None ,None)
 TREE = Room('tree','its a tree',None , None, None, None, None, None, None)
 boathouse = Room('boat house', 'its haves boats but its lock', None, None, None, None, None, None, None,)
 
 current_node = west_house
-directions = ['north', 'south', 'east', 'west']
-short_directions = ['n', 's', 'e', 'w']
+directions = ['north', 'south', 'east', 'west', 'up', 'down']
+short_directions = ['n', 's', 'e', 'w', 'u', 'd']
 
 while True:
     print(current_node.name)
