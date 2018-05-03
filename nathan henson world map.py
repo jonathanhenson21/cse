@@ -1,3 +1,14 @@
+class Room(object):
+    def __init__(self, name, description, items, north, south, east, west, up, down):
+        self.name = name
+        self.north = north
+        self.description = description
+        self.items = items
+        self.south = south
+        self.east = east
+        self.west = west
+
+
 world_map = {
     'WESTHOUSE': {
         'NAME': 'WEST OF PLACE',
@@ -45,6 +56,7 @@ world_map = {
 }
 current_node = world_map['WESTHOUSE']
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST']
+short_directions = ['n', 's', 'e', 'w']
 while True:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
