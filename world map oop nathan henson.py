@@ -27,7 +27,6 @@ up_stair = Room("2 Floor", "it haves 3 room ", None, 'Hall''wide hall way', 'SOU
 room1 = Room('left_room', 'One bed and green walls', None, 'wall', 'wall', 'wall', 'up_stair', None, None)
 BLUE_HOUSE = Room('2 Room', 'two beds two windows', None, 'wall''wall with a window', 'wall', 'up_stair', 'EAST_OF_LAKE', None,
                   None)
-EAST_OF_LAKE = Room('lake', '2 boat and a dock', None, 'dock ', 'lake', 'boat_2', 'boat_1', None, None)
 boat_1 = Room('boat_1', 'red', None, 'land_2', 'other boat', 'lake', None, None, None)
 boat_2 = Room('boat_2', 'blue', None, 'land', 'underwater', 'EAST_OF_LAKE', 'dock',  None, None)
 underwater = Room('uderwater' 'water', None, 'EAST_OF_LAKE', None, None, None, None, None, None)
@@ -38,7 +37,7 @@ cave = Room('cave', 'dark', None, 'back of cave', None, None, None, None, None)
 backofcave = Room('cave' 'dark', None, None, None, None, None, None, None, None)
 yelow = Room('Yellow house', 'yellow', None, 'room1', 'room2', 'room3', 'room4', None, None)
 small = Room('small house', 'very small', None, 'room1', 'Room2', 'Room3', 'Room4', None, None)
-buncker = Room('little red house', 'E.H.S',tree, None, None, None, None, None, None)
+buncker = Room('little red house', 'E.H.S', 'tree', None, None, None, None, None, None)
 TREE = Room('tree', 'its a tree', None, None, None, None, None, None, None)
 boathouse = Room('boat house', 'its haves boats but its lock', None, None, None, None, None, None, None,)
 current_node = west_house
