@@ -9,7 +9,7 @@ class Room(object):
         self.west = west
 
 
-world_map = {
+qworld_map = {
     'WESTHOUSE': {
         'NAME': 'WEST OF PLACE',
         'DESCRIPTION': 'your in a forest all you can see is trees.',
