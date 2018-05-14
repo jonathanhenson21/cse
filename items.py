@@ -55,6 +55,6 @@ class Back_pack(Item):
         super(Back_pack, self).__init__(source, name, description, weight, material)
 
 
-class Skatebord(Item):
+class pickaxe(Item):
     def __init__(self, source, name, description, weight, material):
-        super(Skatebord, self).__init__(source, name, description, weight, material)
+        super(pickaxe, self).__init__(source, name, description, weight, material)
