@@ -31,9 +31,11 @@ class drink(Item):
     def __init__(self, source, name, description, weight, material):
         super(drink, self).__init__(source, name, description, weight, material)
 
-class axe(Item):
+
+class Axe(Item):
     def __init__(self, source, name, description, weight, material):
-        super(axe, self).__init__(source, name, description, weight, material)
+        super(Axe, self).__init__(source, name, description, weight, material)
+
 
 class Key(Item):
     def __init__(self, source, name, description, weight, material):
