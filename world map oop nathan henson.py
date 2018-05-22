@@ -25,9 +25,7 @@ SOUTH_HOUSE = Room('blue house', "look old have wood walls and a fireplace", Non
 up_stair = Room("2 Floor", "it haves 3 room ", None, 'Hall''wide hall way', 'SOUTH_HOUSE', 'room1', 'BLUE_HOUSE', None,
                 None)
 room1 = Room('left_room', 'One bed and green walls', None, 'wall', 'wall', 'wall', 'up_stair', None, None)
-BLUE_HOUSE = Room('2 Room', 'two beds two windows', None, 'wall''wall with a window', 'wall', 'up_stair', 'EAST_OF_LAKE'
-                  , None,
-                  None)
+BLUE_HOUSE = Room('2 Room', 'two beds', None, 'wall''window', 'wall', 'up_stair', 'EAST_OF_LAKE', None, None)
 boat_1 = Room('boat_1', 'red', 'Armor', 'land_2', 'other boat', 'lake', None, None, None)
 boat_2 = Room('boat_2', 'blue', None, 'land', 'underwater', 'EAST_OF_LAKE', 'dock',  None, None)
 underwater = Room('uderwater' 'water', 'Axe', 'EAST_OF_LAKE', None, None, None, None, None, None)
@@ -56,6 +54,11 @@ class Item(object):
         self.material = material
 
 
+class Knife(Item):
+    def __init__(self, source, name, description, weight, material):
+        super(Knife, self).__init__(source, name, description, weight, material)
+
+
 class Weapon(Item):
     def __init__(self, source, name, description, weight, material):
         super(Weapon, self).__init__(source, name, description, weight, material)
@@ -74,11 +77,6 @@ class Drink(Item):
 class Armor(Item):
     def __init__(self, source, name, description, weight, material):
         super(Armor, self).__init__(source, name, description, weight, material)
-
-
-class drink(Item):
-    def __init__(self, source, name, description, weight, material):
-        super(drink, self).__init__(source, name, description, weight, material)
 
 
 class Axe(Item):
@@ -101,14 +99,9 @@ class Drug(Item):
         super(Drug, self).__init__(source, name, description, weight, material)
 
 
-class Back_pack(Item):
+class Backpack(Item):
     def __init__(self, source, name, description, weight, material):
-        super(Back_pack, self).__init__(source, name, description, weight, material)
-
-
-class pickaxe(Item):
-    def __init__(self, source, name, description, weight, material):
-        super(pickaxe, self).__init__(source, name, description, weight, material)
+        super(Backpack, self).__init__(source, name, description, weight, material)
 
 
 while True:
