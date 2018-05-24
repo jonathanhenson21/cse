@@ -20,7 +20,7 @@ west_house = Room('The Green House', "あなたはここであなたの旅を始
 backroom = Room("Green Room", "ITS HAS A LOT OF PLANTS ", None, 'outside', 'road', 'side_door', 'outside_west', None,
                 None)
 road = Room('road', "long dirt road", None, 'South', None, None, 'SOUTH_HOUSE', None,  None)
-SOUTH_HOUSE = Room('blue house', "look old have wood walls and a fireplace", None, 'backroom', 'EAST_OF_LAKE', None,
+SOUTH_HOUSE = Room('blue house', "looks old have wood walls and a fireplace", None, 'backroom', 'EAST_OF_LAKE', None,
                    'front_door', 'up_stair', None)
 up_stair = Room("2 Floor", "it haves 3 room ", None, 'Hall''wide hall way', 'SOUTH_HOUSE', 'room1', 'BLUE_HOUSE', None,
                 None)
